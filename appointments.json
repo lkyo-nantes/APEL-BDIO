@@ -2,16 +2,19 @@
     {
         "date": "2024-10-01",
         "time": "10:00",
-        "description": "Réunion avec les parents d'élèves."
+        "description": "Réunion avec les parents d'élèves.",
+        "image": "https://via.placeholder.com/150?text=Reunion"
     },
     {
         "date": "2024-10-15",
         "time": "14:30",
-        "description": "Atelier de bricolage pour les enfants."
+        "description": "Atelier de bricolage pour les enfants.",
+        "image": "https://via.placeholder.com/150?text=Bricolage"
     },
     {
         "date": "2024-11-05",
         "time": "09:00",
-        "description": "Sortie scolaire au musée."
+        "description": "Sortie scolaire au musée.",
+        "image": "https://via.placeholder.com/150?text=Musee"
     }
 ]
