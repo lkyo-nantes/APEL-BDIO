@@ -22,3 +22,17 @@ document.addEventListener('DOMContentLoaded', () => {
         form.reset();
     });
 });
+
+function login() {
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+
+    // Vérification simple des informations d'identification
+    if (username === 'admin' && password === 'password') {
+        document.getElementById('login-form').style.display = 'none';
+        document.getElementById('authenticated-content').style.display = 'block';
+        document.getElementById('public-content').style.display = 'none';
+    } else {
+        alert('Nom d\'utilisateur ou mot de passe incorrect.');
+    }
+}
