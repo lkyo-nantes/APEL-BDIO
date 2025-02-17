@@ -9,16 +9,33 @@
 <body>
     <div class="container">
         <h1>Rendez-vous de l'Association</h1>
-        <form id="appointment-form">
-            <label for="date">Date :</label>
-            <input type="date" id="date" name="date" required>
-            <label for="time">Heure :</label>
-            <input type="time" id="time" name="time" required>
-            <label for="description">Description :</label>
-            <textarea id="description" name="description" required></textarea>
-            <button type="submit">Ajouter un rendez-vous</button>
-        </form>
-        <div id="appointments-list"></div>
+
+        <!-- Formulaire de connexion -->
+        <div id="login-form">
+            <h2>Connexion</h2>
+            <input type="text" id="username" placeholder="Nom d'utilisateur" required>
+            <input type="password" id="password" placeholder="Mot de passe" required>
+            <button onclick="login()">Se connecter</button>
+        </div>
+
+        <!-- Contenu accessible après authentification -->
+        <div id="authenticated-content" style="display: none;">
+            <form id="appointment-form">
+                <label for="date">Date :</label>
+                <input type="date" id="date" name="date" required>
+                <label for="time">Heure :</label>
+                <input type="time" id="time" name="time" required>
+                <label for="description">Description :</label>
+                <textarea id="description" name="description" required></textarea>
+                <button type="submit">Ajouter un rendez-vous</button>
+            </form>
+            <div id="appointments-list"></div>
+        </div>
+
+        <!-- Contenu public -->
+        <div id="public-content">
+            <p>Bienvenue sur le site de l'association. Veuillez vous connecter pour accéder aux rendez-vous.</p>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
