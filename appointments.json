@@ -1,0 +1,17 @@
+[
+    {
+        "date": "2024-10-01",
+        "time": "10:00",
+        "description": "Réunion avec les parents d'élèves."
+    },
+    {
+        "date": "2024-10-15",
+        "time": "14:30",
+        "description": "Atelier de bricolage pour les enfants."
+    },
+    {
+        "date": "2024-11-05",
+        "time": "09:00",
+        "description": "Sortie scolaire au musée."
+    }
+]
