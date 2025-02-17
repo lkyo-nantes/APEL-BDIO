@@ -81,3 +81,17 @@ h1 {
 #appointments-list {
     margin-top: 20px;
 }
+
+.appointment-image {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 15px;
+}
+
+.appointment {
+    overflow: hidden;
+}
+
