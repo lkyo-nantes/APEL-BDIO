@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const appointmentDiv = document.createElement('div');
                 appointmentDiv.classList.add('appointment');
                 appointmentDiv.innerHTML = `
+                    <img src="${appointment.image}" alt="Image du rendez-vous" class="appointment-image">
                     <strong>Date :</strong> ${appointment.date}<br>
                     <strong>Heure :</strong> ${appointment.time}<br>
                     <strong>Description :</strong> ${appointment.description}
