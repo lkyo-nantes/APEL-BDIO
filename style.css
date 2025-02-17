@@ -1,64 +1,83 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f2f5;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    color: #1c1e21;
 }
 
 .container {
     background-color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
+    font-size: 24px;
+    color: #1c1e21;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#public-content p {
+    font-size: 16px;
     margin-bottom: 20px;
 }
 
-form {
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 8px;
+.appointment {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 8px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid #dddfe2;
 }
 
-button {
-    padding: 10px 20px;
-    background-color: #007BFF;
+.appointment strong {
+    font-weight: bold;
+    color: #1c1e21;
+}
+
+#login-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#login-form h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #1c1e21;
+}
+
+#login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
+    font-size: 16px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #0056b3;
+#login-form button:hover {
+    background-color: #165cb7;
 }
 
 #appointments-list {
     margin-top: 20px;
-}
-
-.appointment {
-    background-color: #e9ecef;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 4px;
 }
